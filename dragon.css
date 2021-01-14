@@ -21,6 +21,30 @@ html {
   padding: inherit;
 }
 
+/* HEADINGS */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0.5rem 0;
+  display: block;
+}
+
+/* PARAGRAPH */
+p {
+  margin-bottom: 0.4rem;
+  display: block;
+}
+
+/* HR */
+
+hr {
+  height: 1px;
+  background: #ccc;
+}
+
 /* CONTAINER */
 
 .container {
@@ -230,4 +254,369 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
   background-color: rgb(0, 255, 0);
   color: black;
   text-decoration: none;
+}
+
+/* TEXT ALIGN CLASSES */
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+
+/* ALERTS */
+.alert {
+  height: 1rem;
+  margin: 0.5rem 1rem;
+  color: white;
+  padding: 0.8rem;
+  border-radius: 5px;
+}
+
+.alert-red {
+  background: red;
+}
+
+.alert-green {
+  background: green;
+}
+
+.alert-orange {
+  background: orange;
+}
+
+.alert-blue {
+  background: blue;
+}
+
+.alert-yellow {
+  background: yellow;
+}
+
+.alert-cyan {
+  background: cyan;
+}
+
+.alert-magenta {
+  background: magenta;
+}
+
+.alert-gray {
+  background: gray;
+}
+
+.alert-close-btn {
+  float: right;
+  cursor: pointer;
+}
+
+/* STATEMENTS */
+.statement {
+  background: #f4f4f4;
+  margin: 1rem;
+  padding: 1rem;
+  border: none;
+}
+
+.statement-border-red {
+  border-left: 5px solid red;
+}
+.statement-border-green {
+  border-left: 5px solid green;
+}
+.statement-border-yellow {
+  border-left: 5px solid yellow;
+}
+.statement-border-blue {
+  border-left: 5px solid blue;
+}
+.statement-border-orange {
+  border-left: 5px solid orange;
+}
+.statement-border-cyan {
+  border-left: 5px solid cyan;
+}
+.statement-border-magenta {
+  border-left: 5px solid magenta;
+}
+.statement-border-gray {
+  border-left: 5px solid gray;
+}
+
+.statement-background-red {
+  background: red;
+  color: white;
+}
+.statement-background-green {
+  background: green;
+}
+.statement-background-yellow {
+  background: yellow;
+}
+.statement-background-blue {
+  background: blue;
+  color: white;
+}
+.statement-background-orange {
+  background: orange;
+}
+.statement-background-cyan {
+  background: cyan;
+}
+.statement-background-magenta {
+  background: magenta;
+  color: white;
+}
+.statement-background-gray {
+  background: gray;
+}
+
+/* ------ PADDING CLASSES ------ */
+/* Padding Around */
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.p-4 {
+  padding: 4rem;
+}
+
+/* Padding Top */
+.pt-1 {
+  padding-top: 1rem;
+}
+
+.pt-2 {
+  padding-top: 2rem;
+}
+
+.pt-3 {
+  padding-top: 3rem;
+}
+
+.pt-4 {
+  padding-top: 4rem;
+}
+
+/* Padding Bottom */
+.pb-1 {
+  padding-bottom: 1rem;
+}
+
+.pb-2 {
+  padding-bottom: 2rem;
+}
+
+.pb-3 {
+  padding-bottom: 3rem;
+}
+
+.pb-4 {
+  padding-bottom: 4rem;
+}
+
+/* Padding Left */
+.pl-1 {
+  padding-left: 1rem;
+}
+
+.pl-2 {
+  padding-left: 2rem;
+}
+
+.pl-3 {
+  padding-left: 3rem;
+}
+
+.pl-4 {
+  padding-left: 4rem;
+}
+
+/* Padding Right */
+.pr-1 {
+  padding-right: 1rem;
+}
+
+.pr-2 {
+  padding-right: 2rem;
+}
+
+.pr-3 {
+  padding-right: 3rem;
+}
+
+.pr-4 {
+  padding-right: 4rem;
+}
+
+/* Padding Y */
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding-bottom: 2rem 0;
+}
+
+.py-3 {
+  padding-bottom: 3rem 0;
+}
+
+.py-4 {
+  padding-bottom: 4rem 0;
+}
+
+/* Padding X */
+.px-1 {
+  padding: 0 1rem;
+}
+
+.px-2 {
+  padding-bottom: 0 2rem;
+}
+
+.px-3 {
+  padding-bottom: 0 3rem;
+}
+
+.px-4 {
+  padding-bottom: 0 4rem;
+}
+
+/* ------ MARGIN CLASSES ------ */
+/* MARGIN */
+.m-1 {
+  margin: 1rem;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.m-4 {
+  margin: 4rem;
+}
+
+/* MARGIN TOP */
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mt-3 {
+  margin-top: 3rem;
+}
+
+.mt-4 {
+  margin-top: 4rem;
+}
+
+/* MARGIN BOTTOM */
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mb-3 {
+  margin-bottom: 3rem;
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
+/* MARGIN LEFT */
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.ml-2 {
+  margin-left: 2rem;
+}
+
+.ml-3 {
+  margin-left: 3rem;
+}
+
+.ml-4 {
+  margin-left: 4rem;
+}
+
+/* MARGIN RIGHT */
+.mr-1 {
+  margin-right: 1rem;
+}
+
+.mr-2 {
+  margin-right: 2rem;
+}
+
+.mr-3 {
+  margin-right: 3rem;
+}
+
+.mr-4 {
+  margin-right: 4rem;
+}
+
+/* MARGIN Y */
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin-bottom: 2rem 0;
+}
+
+.my-3 {
+  margin-bottom: 3rem 0;
+}
+
+.my-4 {
+  margin-bottom: 4rem 0;
+}
+
+/* MARGIN X */
+.mx-1 {
+  margin: 0 1rem;
+}
+
+.mx-2 {
+  margin-bottom: 0 2rem;
+}
+
+.mx-3 {
+  margin-bottom: 0 3rem;
+}
+
+.mx-4 {
+  margin-bottom: 0 4rem;
 }
