@@ -364,6 +364,22 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {filter: brightness(85%);}
 
+/* LISTS */
+.list {
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.list-item {
+  border-top: 1px solid gray;
+  padding: 10px 0 10px 10px;
+}
+
+.list-item:first-child {
+  border-top: none;
+}
+
 /* ------ PADDING CLASSES ------ */
 /* Padding Around */
 .p-1 {padding: 1rem;}
