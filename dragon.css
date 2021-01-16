@@ -240,16 +240,16 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
   /* Standard */
 }
 
-.bg-red {background: red;color: white;}
-.bg-green {background: green;color: white;}
-.bg-yellow {background: yellow;color: black;}
-.bg-blue {background: blue;color: white;}
-.bg-orange {background: orange;color: black;}
-.bg-cyan {background: cyan;color: black;}
-.bg-magenta {background: magenta;color: white;}
-.bg-gray {background: gray;color: white;}
-.bg-light {background: #c5c5c5;color: black;}
-.bg-dark {background: #515151;color: white;}
+.bg-red {background-color: red;color: white;}
+.bg-green {background-color: green;color: white;}
+.bg-yellow {background-color: yellow;color: black;}
+.bg-blue {background-color: blue;color: white;}
+.bg-orange {background-color: orange;color: black;}
+.bg-cyan {background-color: cyan;color: black;}
+.bg-magenta {background-color: magenta;color: white;}
+.bg-gray {background-color: gray;color: white;}
+.bg-light {background-color: #c5c5c5;color: black;}
+.bg-dark {background-color: #515151;color: white;}
 
 /* DROPDOWNS */
 .dropdown {
@@ -305,7 +305,6 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
 
 /* FORMS */
 .form {
-  background-color: #c5c5c5;
   width: 100%;
   padding: 1rem;
   align-items: center;
@@ -322,10 +321,11 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
   box-shadow:         inset 0 0 5px #000000;
 }
 
+/* OUTER SHADOW */
 .shadow-out {
-  -moz-box-shadow:    2px 2px 10px 6px #ccc;
-  -webkit-box-shadow: 2px 2px 10px 6px #ccc;
-  box-shadow:         2px 2px 10px 6px #ccc;
+  -moz-box-shadow:    3px 3px 8px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 8px 6px #ccc;
+  box-shadow:         3px 3px 8px 6px #ccc;
 }
 
 /*  BORDER CLASSES */
