@@ -2,7 +2,7 @@
 Take flight with Dragon! A CSS framework built for champions.
 
 ## Description
-This CSS framework started as a joke made during my web development bootcamp... And it turned into what it is now!
+This CSS framework started as a joke made during my web development bootcamp... And it turned into what it is now! This framework was written in 100% vanilla CSS and is cross-browser compatible.
 
 ## Features
 - Powerful grid system
