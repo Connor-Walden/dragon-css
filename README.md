@@ -10,6 +10,7 @@ This CSS framework started as a joke made during my web development bootcamp... 
 - Custom padding classes
 - Custom margin classes
 - Custom border classes
+- Custom font classes
 - Recolor: color any text or component in any of our classes (bg-[COLOR] and text-[COLOR])
 
 ## Components

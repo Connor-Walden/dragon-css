@@ -1,3 +1,6 @@
+/* IMPORT FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&family=Mukta&family=Noto+Sans+JP&family=Open+Sans&family=Roboto&display=swap');
+
 /* GLOBAL VARIABLES */
 :root {
   --container-max-width: 1140px;
@@ -263,6 +266,14 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
 .text-gray {color: gray;}
 .text-light {color: #c5c5c5;}
 .text-dark {color: #515151;}
+
+/* FONTS */
+.font-lato {font-family: 'Lato', sans-serif;}
+.font-merriweather {font-family: 'Merriweather', serif;}
+.font-mukta {font-family: 'Mukta', sans-serif;}
+.font-noto-sans-jp {font-family: 'Noto Sans JP', sans-serif;}
+.font-open-sans {font-family: 'Open Sans', sans-serif;}
+.font-roboto {font-family: 'Roboto', sans-serif;}
 
 /* DROPDOWNS */
 .dropdown {
@@ -546,7 +557,6 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
 .px-2 {padding-bottom: 0 2rem;}
 .px-3 {padding-bottom: 0 3rem;}
 .px-4 {padding-bottom: 0 4rem;}
-
 
 /* ------ MARGIN CLASSES ------ */
 
