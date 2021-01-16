@@ -60,6 +60,34 @@ hr {
   content: '';
 }
 
+/* MINI BUTTONS */
+.close-mini-btn {
+  margin: -14px -9.5px 0 0;
+  float: right;
+  cursor: pointer;
+}
+.close-mini-btn:active {
+  cursor: progress;
+}
+
+.add-mini-btn {
+  margin: -22px -9.5px 0 0;
+  font-size: 24px;
+  float: right;
+  cursor: pointer;
+  -webkit-user-select: none;
+  /* Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+/Edge */
+  user-select: none;
+  /* Standard */
+}
+.add-mini-btn:active {
+  cursor: progress;
+}
+
 /* COLUMNS */
 
 /* 
@@ -195,6 +223,7 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
   margin: 0.5rem 1rem;
   color: white;
   padding: 0.8rem;
+
   -webkit-user-select: none;
   /* Safari */
   -moz-user-select: none;
@@ -204,13 +233,6 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
   user-select: none;
   /* Standard */
 }
-.alert-close-btn {
-  margin: -14px -9.5px 0 0;
-  float: right;
-  cursor: pointer;
-}
-.alert-close-btn:hover {font-size: larger;}
-.alert-close-btn:active {cursor: progress;}
 
 /* STATEMENTS */
 .statement {
@@ -350,6 +372,42 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
   -moz-box-shadow:    3px 3px 8px 6px #ccc;
   -webkit-box-shadow: 3px 3px 8px 6px #ccc;
   box-shadow:         3px 3px 8px 6px #ccc;
+}
+
+/* ACCORDION */
+.accordion {
+  border-radius: 5px;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion-banner {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  -webkit-user-select: none;
+  /* Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+/Edge */
+  user-select: none;
+  /* Standard */
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion-banner:hover {
+  filter: brightness(85%);
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.accordion-panel {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
 }
 
 /*  BORDER CLASSES */
