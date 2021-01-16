@@ -6,7 +6,6 @@
     <title>Dragon</title>
 
     <link rel="stylesheet" href="dragon.css">
-    
   </head>
   <body>
 
@@ -446,13 +445,13 @@
 
       <!-- LISTS -->
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 mb-1">
           <h1 id="listsTop" class="text-center bt-2-dark bb-2-dark mt-1">LISTS</h1>
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-6">
+      <div class="row mb-1">
+        <div id="col3" class="col-12">
           <div class="list">
             <div class="list-item bg-red">
               List item 1
@@ -469,6 +468,11 @@
             <div class="list-item bg-magenta">
               List item 5
             </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="slider-body">
+            <input type="range" min="2" max="12" value="12" class="slider-handle bg-dark" id="slider3">
           </div>
         </div>
       </div>
@@ -646,26 +650,34 @@
       </div>
 
       <div class="row">
-        <form class="form b-1-dark shadow-out mb-2 bg-red" action="./forms.html">
-          <div class="form-title text-center bb-2-dark mb-1 text-yellow">Signup Form</div>
-        
-          <label for="first_name">First Name: </label>
-          <input class="form-input mb-2 shadow-in bg-orange text-blue" type="text" name="first_name" id="first_name" value="First name...">
-        
-          <label for="last_name">Last Name: </label>
-          <input class="form-input mb-2 shadow-in bg-green text-light" type="text" name="last_name" id="last_name" value="Last name...">
-        
-          <label for="email">Email: </label>
-          <input class="form-input mb-2 shadow-in bg-light text-dark" type="email" name="email" id="email" value="email@email.com">
-        
-          <label for="password">Password: </label>
-          <input class="form-input mb-2 shadow-in bg-blue text-gray" type="password" name="password" id="password" value="aaaaaa">
-        
-          <label for="password2">Retype Password: </label>
-          <input class="form-input mb-2 shadow-in bg-magenta text-cyan" type="password" name="password2" id="password2" value="aaaaaa">
-        
-          <input class="btn bg-gray" type="submit" value="Submit">
-        </form>
+        <div id="col2" class="col-12">
+          <form class="form b-1-dark shadow-out mb-2 bg-red" action="./forms.html">
+            <div class="form-title text-center bb-2-dark mb-1 text-yellow">Signup Form</div>
+          
+            <label for="first_name">First Name: </label>
+            <input class="form-input mb-2 shadow-in bg-orange text-blue" type="text" name="first_name" id="first_name" value="First name...">
+          
+            <label for="last_name">Last Name: </label>
+            <input class="form-input mb-2 shadow-in bg-green text-light" type="text" name="last_name" id="last_name" value="Last name...">
+          
+            <label for="email">Email: </label>
+            <input class="form-input mb-2 shadow-in bg-light text-dark" type="email" name="email" id="email" value="email@email.com">
+          
+            <label for="password">Password: </label>
+            <input class="form-input mb-2 shadow-in bg-blue text-gray" type="password" name="password" id="password" value="aaaaaa">
+          
+            <label for="password2">Retype Password: </label>
+            <input class="form-input mb-2 shadow-in bg-magenta text-cyan" type="password" name="password2" id="password2" value="aaaaaa">
+          
+            <input class="btn bg-gray" type="submit" value="Submit">
+          </form>
+        </div>
+
+        <div class="col-12">
+          <div class="slider-body">
+            <input type="range" min="2" max="12" value="12" class="slider-handle" id="slider2">
+          </div>
+        </div>
       </div>
 
       <!-- ACCORDIONS -->
@@ -676,7 +688,7 @@
       </div>
 
       <div class="row mb-1">
-        <div class="col-12">
+        <div id="col1" class="col-12">
           <div class="accordion bg-light">
             <div class="accordion-banner bg-red">
               Section 1
@@ -703,6 +715,12 @@
             </div>
           </div>
         </div>
+
+        <div class="col-12">
+          <div class="slider-body">
+            <input type="range" min="2" max="12" value="12" class="slider-handle" id="slider1">
+          </div>
+        </div>
       </div>
     </div>
 
@@ -715,6 +733,19 @@
       $('form').on('submit', function (event) {
         event.preventDefault();
       });
+
+      $("#slider1").on("input", function () {
+        $("#col1").attr("class", "col-" + $("#slider1").val());
+      }); 
+      
+      $("#slider2").on("input", function () {
+        $("#col2").attr("class", "col-" + $("#slider2").val());
+      });
+
+      $("#slider3").on("input", function () {
+        $("#col3").attr("class", "col-" + $("#slider3").val());
+      });
+
     </script>
   </body>
 </html>

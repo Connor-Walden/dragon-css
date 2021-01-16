@@ -88,6 +88,45 @@ hr {
   cursor: progress;
 }
 
+/* ROUNDED */
+.rounded {
+  border-radius: 5px;
+}
+
+.slider-body {
+  width: 100%;
+}
+
+.slider-handle {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;  
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider-handle::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider-handle::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
 /* COLUMNS */
 
 /* 
@@ -336,6 +375,7 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
 .list-item {
   border-top: 1px solid gray;
   padding: 10px 0 10px 10px;
+  margin: 0;
   -webkit-user-select: none;
   /* Safari */
   -moz-user-select: none;
@@ -383,6 +423,7 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
 .accordion-banner {
   cursor: pointer;
   padding: 18px;
+  margin: 0;
   width: 100%;
   text-align: left;
   border: none;
@@ -406,6 +447,7 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
 /* Style the accordion panel. Note: hidden by default */
 .accordion-panel {
   padding: 0 18px;
+  margin: 0;
   display: none;
   overflow: hidden;
 }
@@ -413,164 +455,164 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
 /*  BORDER CLASSES */
 
 /* Border Around */
-.b-1-red {border: 1px solid red;border-radius: 5px;}
-.b-1-green {border: 1px solid green;border-radius: 5px;}
-.b-1-yellow {border: 1px solid yellow;border-radius: 5px;}
-.b-1-blue {border: 1px solid blue;border-radius: 5px;}
-.b-1-orange {border: 1px solid orange;border-radius: 5px;}
-.b-1-cyan {border: 1px solid cyan;border-radius: 5px;}
-.b-1-magenta {border: 1px solid magenta;border-radius: 5px;}
-.b-1-gray {border: 1px solid gray;border-radius: 5px;}
-.b-1-light {border: 1px solid #c5c5c5;border-radius: 5px;}
-.b-1-dark {border: 1px solid #515151;border-radius: 5px;}
-.b-2-red {border: 5px solid red;border-radius: 5px;}
-.b-2-green {border: 5px solid green;border-radius: 5px;}
-.b-2-yellow {border: 5px solid yellow;border-radius: 5px;}
-.b-2-blue {border: 5px solid blue;border-radius: 5px;}
-.b-2-orange {border: 5px solid orange;border-radius: 5px;}
-.b-2-cyan {border: 5px solid cyan;border-radius: 5px;}
-.b-2-magenta {border: 5px solid magenta;border-radius: 5px;}
-.b-2-gray {border: 5px solid gray;border-radius: 5px;}
-.b-2-light {border: 5px solid #c5c5c5;border-radius: 5px;}
-.b-2-dark {border: 5px solid #515151;border-radius: 5px;}
-.b-3-red {border: 20px solid red;border-radius: 5px;}
-.b-3-green {border: 20px solid green;border-radius: 5px;}
-.b-3-yellow {border: 20px solid yellow;border-radius: 5px;}
-.b-3-blue {border: 20px solid blue;border-radius: 5px;}
-.b-3-orange {border: 20px solid orange;border-radius: 5px;}
-.b-3-cyan {border: 20px solid cyan;border-radius: 5px;}
-.b-3-magenta {border: 20px solid magenta;border-radius: 5px;}
-.b-3-gray {border: 20px solid gray;border-radius: 5px;}
-.b-3-light {border: 20px solid #c5c5c5;border-radius: 5px;}
-.b-3-dark {border: 20px solid #515151;border-radius: 5px;}
+.b-1-red {border: 1px solid red;border-radius: 5px;margin:0;}
+.b-1-green {border: 1px solid green;border-radius: 5px;margin:0;}
+.b-1-yellow {border: 1px solid yellow;border-radius: 5px;margin:0;}
+.b-1-blue {border: 1px solid blue;border-radius: 5px;margin:0;}
+.b-1-orange {border: 1px solid orange;border-radius: 5px;margin:0;}
+.b-1-cyan {border: 1px solid cyan;border-radius: 5px;margin:0;}
+.b-1-magenta {border: 1px solid magenta;border-radius: 5px;margin:0;}
+.b-1-gray {border: 1px solid gray;border-radius: 5px;margin:0;}
+.b-1-light {border: 1px solid #c5c5c5;border-radius: 5px;margin:0;}
+.b-1-dark {border: 1px solid #515151;border-radius: 5px;margin:0;}
+.b-2-red {border: 5px solid red;border-radius: 5px;margin:0;}
+.b-2-green {border: 5px solid green;border-radius: 5px;margin:0;}
+.b-2-yellow {border: 5px solid yellow;border-radius: 5px;margin:0;}
+.b-2-blue {border: 5px solid blue;border-radius: 5px;margin:0;}
+.b-2-orange {border: 5px solid orange;border-radius: 5px;margin:0;}
+.b-2-cyan {border: 5px solid cyan;border-radius: 5px;margin:0;}
+.b-2-magenta {border: 5px solid magenta;border-radius: 5px;margin:0;}
+.b-2-gray {border: 5px solid gray;border-radius: 5px;margin:0;}
+.b-2-light {border: 5px solid #c5c5c5;border-radius: 5px;margin:0;}
+.b-2-dark {border: 5px solid #515151;border-radius: 5px;margin:0;}
+.b-3-red {border: 20px solid red;border-radius: 5px;margin:0;}
+.b-3-green {border: 20px solid green;border-radius: 5px;margin:0;}
+.b-3-yellow {border: 20px solid yellow;border-radius: 5px;margin:0;}
+.b-3-blue {border: 20px solid blue;border-radius: 5px;margin:0;}
+.b-3-orange {border: 20px solid orange;border-radius: 5px;margin:0;}
+.b-3-cyan {border: 20px solid cyan;border-radius: 5px;margin:0;}
+.b-3-magenta {border: 20px solid magenta;border-radius: 5px;margin:0;}
+.b-3-gray {border: 20px solid gray;border-radius: 5px;margin:0;}
+.b-3-light {border: 20px solid #c5c5c5;border-radius: 5px;margin:0;}
+.b-3-dark {border: 20px solid #515151;border-radius: 5px;margin:0;}
 
 /* Border Top */
-.bt-1-red {border-top: 1px solid red;}
-.bt-1-green {border-top: 1px solid green;}
-.bt-1-yellow {border-top: 1px solid yellow;}
-.bt-1-blue {border-top: 1px solid blue;}
-.bt-1-orange {border-top: 1px solid orange;}
-.bt-1-cyan {border-top: 1px solid cyan;}
-.bt-1-magenta {border-top: 1px solid magenta;}
-.bt-1-gray {border-top: 1px solid gray;}
-.bt-1-light {border-top: 1px solid #c5c5c5;}
-.bt-1-dark {border-top: 1px solid #515151;}
-.bt-2-red {border-top: 5px solid red;}
-.bt-2-green {border-top: 5px solid green;}
-.bt-2-yellow {border-top: 5px solid yellow;}
-.bt-2-blue {border-top: 5px solid blue;}
-.bt-2-orange {border-top: 5px solid orange;}
-.bt-2-cyan {border-top: 5px solid cyan;}
-.bt-2-magenta {border-top: 5px solid magenta;}
-.bt-2-gray {border-top: 5px solid gray;}
-.bt-2-light {border-top: 5px solid #c5c5c5;}
-.bt-2-dark {border-top: 5px solid #515151;}
-.bt-3-red {border-top: 20px solid red;}
-.bt-3-green {border-top: 20px solid green;}
-.bt-3-yellow {border-top: 20px solid yellow;}
-.bt-3-blue {border-top: 20px solid blue;}
-.bt-3-orange {border-top: 20px solid orange;}
-.bt-3-cyan {border-top: 20px solid cyan;}
-.bt-3-magenta {border-top: 20px solid magenta;}
-.bt-3-gray {border-top: 20px solid gray;}
-.bt-3-light {border-top: 20px solid #c5c5c5;}
-.bt-3-dark {border-top: 20px solid #515151;}
+.bt-1-red {border-top: 1px solid red;margin:0;}
+.bt-1-green {border-top: 1px solid green;margin:0;}
+.bt-1-yellow {border-top: 1px solid yellow;margin:0;}
+.bt-1-blue {border-top: 1px solid blue;margin:0;}
+.bt-1-orange {border-top: 1px solid orange;margin:0;}
+.bt-1-cyan {border-top: 1px solid cyan;margin:0;}
+.bt-1-magenta {border-top: 1px solid magenta;margin:0;}
+.bt-1-gray {border-top: 1px solid gray;margin:0;}
+.bt-1-light {border-top: 1px solid #c5c5c5;margin:0;}
+.bt-1-dark {border-top: 1px solid #515151;margin:0;}
+.bt-2-red {border-top: 5px solid red;margin:0;}
+.bt-2-green {border-top: 5px solid green;margin:0;}
+.bt-2-yellow {border-top: 5px solid yellow;margin:0;}
+.bt-2-blue {border-top: 5px solid blue;margin:0;}
+.bt-2-orange {border-top: 5px solid orange;margin:0;}
+.bt-2-cyan {border-top: 5px solid cyan;margin:0;}
+.bt-2-magenta {border-top: 5px solid magenta;margin:0;}
+.bt-2-gray {border-top: 5px solid gray;margin:0;}
+.bt-2-light {border-top: 5px solid #c5c5c5;margin:0;}
+.bt-2-dark {border-top: 5px solid #515151;margin:0;}
+.bt-3-red {border-top: 20px solid red;margin:0;}
+.bt-3-green {border-top: 20px solid green;margin:0;}
+.bt-3-yellow {border-top: 20px solid yellow;margin:0;}
+.bt-3-blue {border-top: 20px solid blue;margin:0;}
+.bt-3-orange {border-top: 20px solid orange;margin:0;}
+.bt-3-cyan {border-top: 20px solid cyan;margin:0;}
+.bt-3-magenta {border-top: 20px solid magenta;margin:0;}
+.bt-3-gray {border-top: 20px solid gray;margin:0;}
+.bt-3-light {border-top: 20px solid #c5c5c5;margin:0;}
+.bt-3-dark {border-top: 20px solid #515151;margin:0;}
 
 /* Border Right */
-.br-1-red {border-right: 1px solid red;}
-.br-1-green {border-right: 1px solid green;}
-.br-1-yellow {border-right: 1px solid yellow;}
-.br-1-blue {border-right: 1px solid blue;}
-.br-1-orange {border-right: 1px solid orange;}
-.br-1-cyan {border-right: 1px solid cyan;}
-.br-1-magenta {border-right: 1px solid magenta;}
-.br-1-gray {border-right: 1px solid gray;}
-.br-1-light {border-right: 1px solid #c5c5c5;}
-.br-1-dark {border-right: 1px solid #515151;}
-.br-2-red {border-right: 5px solid red;}
-.br-2-green {border-right: 5px solid green;}
-.br-2-yellow {border-right: 5px solid yellow;}
-.br-2-blue {border-right: 5px solid blue;}
-.br-2-orange {border-right: 5px solid orange;}
-.br-2-cyan {border-right: 5px solid cyan;}
-.br-2-magenta {border-right: 5px solid magenta;}
-.br-2-gray {border-right: 5px solid gray;}
-.br-2-light {border-right: 5px solid #c5c5c5;}
-.br-2-dark {border-right: 5px solid #515151;}
-.br-3-red {border-right: 20px solid red;}
-.br-3-green {border-right: 20px solid green;}
-.br-3-yellow {border-right: 20px solid yellow;}
-.br-3-blue {border-right: 20px solid blue;}
-.br-3-orange {border-right: 20px solid orange;}
-.br-3-cyan {border-right: 20px solid cyan;}
-.br-3-magenta {border-right: 20px solid magenta;}
-.br-3-gray {border-right: 20px solid gray;}
-.br-3-light {border-right: 20px solid #c5c5c5;}
-.br-3-dark {border-right: 20px solid #515151;}
+.br-1-red {border-right: 1px solid red;margin:0;}
+.br-1-green {border-right: 1px solid green;margin:0;}
+.br-1-yellow {border-right: 1px solid yellow;margin:0;}
+.br-1-blue {border-right: 1px solid blue;margin:0;}
+.br-1-orange {border-right: 1px solid orange;margin:0;}
+.br-1-cyan {border-right: 1px solid cyan;margin:0;}
+.br-1-magenta {border-right: 1px solid magenta;margin:0;}
+.br-1-gray {border-right: 1px solid gray;margin:0;}
+.br-1-light {border-right: 1px solid #c5c5c5;margin:0;}
+.br-1-dark {border-right: 1px solid #515151;margin:0;}
+.br-2-red {border-right: 5px solid red;margin:0;}
+.br-2-green {border-right: 5px solid green;margin:0;}
+.br-2-yellow {border-right: 5px solid yellow;margin:0;}
+.br-2-blue {border-right: 5px solid blue;margin:0;}
+.br-2-orange {border-right: 5px solid orange;margin:0;}
+.br-2-cyan {border-right: 5px solid cyan;margin:0;}
+.br-2-magenta {border-right: 5px solid magenta;margin:0;}
+.br-2-gray {border-right: 5px solid gray;margin:0;}
+.br-2-light {border-right: 5px solid #c5c5c5;margin:0;}
+.br-2-dark {border-right: 5px solid #515151;margin:0;}
+.br-3-red {border-right: 20px solid red;margin:0;}
+.br-3-green {border-right: 20px solid green;margin:0;}
+.br-3-yellow {border-right: 20px solid yellow;margin:0;}
+.br-3-blue {border-right: 20px solid blue;margin:0;}
+.br-3-orange {border-right: 20px solid orange;margin:0;}
+.br-3-cyan {border-right: 20px solid cyan;margin:0;}
+.br-3-magenta {border-right: 20px solid magenta;margin:0;}
+.br-3-gray {border-right: 20px solid gray;margin:0;}
+.br-3-light {border-right: 20px solid #c5c5c5;margin:0;}
+.br-3-dark {border-right: 20px solid #515151;margin:0;}
 
 /* Border Bottom */
-.bb-1-red {border-bottom: 1px solid red;}
-.bb-1-green {border-bottom: 1px solid green;}
-.bb-1-yellow {border-bottom: 1px solid yellow;}
-.bb-1-blue {border-bottom: 1px solid blue;}
-.bb-1-orange {border-bottom: 1px solid orange;}
-.bb-1-cyan {border-bottom: 1px solid cyan;}
-.bb-1-magenta {border-bottom: 1px solid magenta;}
-.bb-1-gray {border-bottom: 1px solid gray;}
-.bb-1-light {border-bottom: 1px solid #c5c5c5;}
-.bb-1-dark {border-bottom: 1px solid #515151;}
-.bb-2-red {border-bottom: 5px solid red;}
-.bb-2-green {border-bottom: 5px solid green;}
-.bb-2-yellow {border-bottom: 5px solid yellow;}
-.bb-2-blue {border-bottom: 5px solid blue;}
-.bb-2-orange {border-bottom: 5px solid orange;}
-.bb-2-cyan {border-bottom: 5px solid cyan;}
-.bb-2-magenta {border-bottom: 5px solid magenta;}
-.bb-2-gray {border-bottom: 5px solid gray;}
-.bb-2-light {border-bottom: 5px solid #c5c5c5;}
-.bb-2-dark {border-bottom: 5px solid #515151;}
-.bb-3-red {border-bottom: 20px solid red;}
-.bb-3-green {border-bottom: 20px solid green;}
-.bb-3-yellow {border-bottom: 20px solid yellow;}
-.bb-3-blue {border-bottom: 20px solid blue;}
-.bb-3-orange {border-bottom: 20px solid orange;}
-.bb-3-cyan {border-bottom: 20px solid cyan;}
-.bb-3-magenta {border-bottom: 20px solid magenta;}
-.bb-3-gray {border-bottom: 20px solid gray;}
-.bb-3-light {border-bottom: 20px solid #c5c5c5;}
-.bb-3-dark {border-bottom: 20px solid #515151;}
+.bb-1-red {border-bottom: 1px solid red;margin:0;}
+.bb-1-green {border-bottom: 1px solid green;margin:0;}
+.bb-1-yellow {border-bottom: 1px solid yellow;margin:0;}
+.bb-1-blue {border-bottom: 1px solid blue;margin:0;}
+.bb-1-orange {border-bottom: 1px solid orange;margin:0;}
+.bb-1-cyan {border-bottom: 1px solid cyan;margin:0;}
+.bb-1-magenta {border-bottom: 1px solid magenta;margin:0;}
+.bb-1-gray {border-bottom: 1px solid gray;margin:0;}
+.bb-1-light {border-bottom: 1px solid #c5c5c5;margin:0;}
+.bb-1-dark {border-bottom: 1px solid #515151;margin:0;}
+.bb-2-red {border-bottom: 5px solid red;margin:0;}
+.bb-2-green {border-bottom: 5px solid green;margin:0;}
+.bb-2-yellow {border-bottom: 5px solid yellow;margin:0;}
+.bb-2-blue {border-bottom: 5px solid blue;margin:0;}
+.bb-2-orange {border-bottom: 5px solid orange;margin:0;}
+.bb-2-cyan {border-bottom: 5px solid cyan;margin:0;}
+.bb-2-magenta {border-bottom: 5px solid magenta;margin:0;}
+.bb-2-gray {border-bottom: 5px solid gray;margin:0;}
+.bb-2-light {border-bottom: 5px solid #c5c5c5;margin:0;}
+.bb-2-dark {border-bottom: 5px solid #515151;margin:0;}
+.bb-3-red {border-bottom: 20px solid red;margin:0;}
+.bb-3-green {border-bottom: 20px solid green;margin:0;}
+.bb-3-yellow {border-bottom: 20px solid yellow;margin:0;}
+.bb-3-blue {border-bottom: 20px solid blue;margin:0;}
+.bb-3-orange {border-bottom: 20px solid orange;margin:0;}
+.bb-3-cyan {border-bottom: 20px solid cyan;margin:0;}
+.bb-3-magenta {border-bottom: 20px solid magenta;margin:0;}
+.bb-3-gray {border-bottom: 20px solid gray;margin:0;}
+.bb-3-light {border-bottom: 20px solid #c5c5c5;margin:0;}
+.bb-3-dark {border-bottom: 20px solid #515151;margin:0;}
 
 /* Border Left */
-.bl-1-red {border-left: 1px solid red;}
-.bl-1-green {border-left: 1px solid green;}
-.bl-1-yellow {border-left: 1px solid yellow;}
-.bl-1-blue {border-left: 1px solid blue;}
-.bl-1-orange {border-left: 1px solid orange;}
-.bl-1-cyan {border-left: 1px solid cyan;}
-.bl-1-magenta {border-left: 1px solid magenta;}
-.bl-1-gray {border-left: 1px solid gray;}
-.bl-1-light {border-left: 1px solid #c5c5c5;}
-.bl-1-dark {border-left: 1px solid #515151;}
-.bl-2-red {border-left: 5px solid red;}
-.bl-2-green {border-left: 5px solid green;}
-.bl-2-yellow {border-left: 5px solid yellow;}
-.bl-2-blue {border-left: 5px solid blue;}
-.bl-2-orange {border-left: 5px solid orange;}
-.bl-2-cyan {border-left: 5px solid cyan;}
-.bl-2-magenta {border-left: 5px solid magenta;}
-.bl-2-gray {border-left: 5px solid gray;}
-.bl-2-light {border-left: 5px solid #c5c5c5;}
-.bl-2-dark {border-left: 5px solid #515151;}
-.bl-3-red {border-left: 20px solid red;}
-.bl-3-green {border-left: 20px solid green;}
-.bl-3-yellow {border-left: 20px solid yellow;}
-.bl-3-blue {border-left: 20px solid blue;}
-.bl-3-orange {border-left: 20px solid orange;}
-.bl-3-cyan {border-left: 20px solid cyan;}
-.bl-3-magenta {border-left: 20px solid magenta;}
-.bl-3-gray {border-left: 20px solid gray;}
-.bl-3-light {border-left: 20px solid #c5c5c5;}
-.bl-3-dark {border-left: 20px solid #515151;}
+.bl-1-red {border-left: 1px solid red;margin:0;}
+.bl-1-green {border-left: 1px solid green;margin:0;}
+.bl-1-yellow {border-left: 1px solid yellow;margin:0;}
+.bl-1-blue {border-left: 1px solid blue;margin:0;}
+.bl-1-orange {border-left: 1px solid orange;margin:0;}
+.bl-1-cyan {border-left: 1px solid cyan;margin:0;}
+.bl-1-magenta {border-left: 1px solid magenta;margin:0;}
+.bl-1-gray {border-left: 1px solid gray;margin:0;}
+.bl-1-light {border-left: 1px solid #c5c5c5;margin:0;}
+.bl-1-dark {border-left: 1px solid #515151;margin:0;}
+.bl-2-red {border-left: 5px solid red;margin:0;}
+.bl-2-green {border-left: 5px solid green;margin:0;}
+.bl-2-yellow {border-left: 5px solid yellow;margin:0;}
+.bl-2-blue {border-left: 5px solid blue;margin:0;}
+.bl-2-orange {border-left: 5px solid orange;margin:0;}
+.bl-2-cyan {border-left: 5px solid cyan;margin:0;}
+.bl-2-magenta {border-left: 5px solid magenta;margin:0;}
+.bl-2-gray {border-left: 5px solid gray;margin:0;}
+.bl-2-light {border-left: 5px solid #c5c5c5;margin:0;}
+.bl-2-dark {border-left: 5px solid #515151;margin:0;}
+.bl-3-red {border-left: 20px solid red;margin:0;}
+.bl-3-green {border-left: 20px solid green;margin:0;}
+.bl-3-yellow {border-left: 20px solid yellow;margin:0;}
+.bl-3-blue {border-left: 20px solid blue;margin:0;}
+.bl-3-orange {border-left: 20px solid orange;margin:0;}
+.bl-3-cyan {border-left: 20px solid cyan;margin:0;}
+.bl-3-magenta {border-left: 20px solid magenta;margin:0;}
+.bl-3-gray {border-left: 20px solid gray;margin:0;}
+.bl-3-light {border-left: 20px solid #c5c5c5;margin:0;}
+.bl-3-dark {border-left: 20px solid #515151;margin:0;}
 
 /* ------ PADDING CLASSES ------ */
 
