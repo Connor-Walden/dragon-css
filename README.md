@@ -10,6 +10,7 @@ This CSS framework started as a joke made during my web development bootcamp... 
 - Custom padding classes
 - Custom margin classes
 - Custom border classes
+- Recolor: color any text or component in any of our classes (bg-[COLOR] and text-[COLOR])
 
 ## Components
 - Buttons
@@ -18,6 +19,7 @@ This CSS framework started as a joke made during my web development bootcamp... 
 - Statements
 - Dropdowns
 - Lists
+- Forms
 
 ## Showcase
 https://connor-walden.github.io/dragon-css
