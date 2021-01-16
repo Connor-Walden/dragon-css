@@ -240,6 +240,7 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
   /* Standard */
 }
 
+/* BACKGROUND COLOR */
 .bg-red {background-color: red;color: white;}
 .bg-green {background-color: green;color: white;}
 .bg-yellow {background-color: yellow;color: black;}
@@ -250,6 +251,18 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
 .bg-gray {background-color: gray;color: white;}
 .bg-light {background-color: #c5c5c5;color: black;}
 .bg-dark {background-color: #515151;color: white;}
+
+/* TEXT COLOR */
+.text-red {color: red;}
+.text-green {color: green;}
+.text-yellow {color: yellow;}
+.text-blue {color: blue;}
+.text-orange {color: orange;}
+.text-cyan {color: cyan;}
+.text-magenta {color: magenta;}
+.text-gray {color: gray;}
+.text-light {color: #c5c5c5;}
+.text-dark {color: #515151;}
 
 /* DROPDOWNS */
 .dropdown {
