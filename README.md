@@ -22,6 +22,7 @@ This CSS framework started as a joke made during my web development bootcamp... 
 - Lists
 - Forms
 - Accordions
+- Cards
 
 ## Showcase
 https://connor-walden.github.io/dragon-css
