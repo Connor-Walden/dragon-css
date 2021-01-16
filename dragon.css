@@ -177,7 +177,8 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
   user-select: none;
   /* Standard */
 }
-.btn:hover {filter: brightness(85%);}
+.btn:hover {filter: brightness(85%);cursor: pointer;}
+.btn:active {cursor: progress;}
 
 /* TEXT ALIGN CLASSES */
 .text-left {text-align: left;}
@@ -463,7 +464,6 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
 .bl-3-gray {border-left: 20px solid gray;}
 .bl-3-light {border-left: 20px solid #c5c5c5;}
 .bl-3-dark {border-left: 20px solid #515151;}
-
 
 /* ------ PADDING CLASSES ------ */
 
