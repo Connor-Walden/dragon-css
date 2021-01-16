@@ -300,7 +300,6 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
   margin: 0.5rem 1rem;
   color: white;
   padding: 0.8rem;
-  width: 100%;
   -webkit-user-select: none;
   /* Safari */
   -moz-user-select: none;
@@ -333,7 +332,6 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
   margin: 1rem;
   padding: 1rem;
   border: none;
-  width: 100%;
 }
 
 .statement-marker-red {
