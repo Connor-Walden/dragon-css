@@ -54,7 +54,7 @@
     
       <!-- BUTTONS -->
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 mb-1">
           <h1 id="buttonsTop" class="text-center bt-2-dark bb-2-dark mt-1">BUTTONS</h1>
         </div>
       </div>
@@ -479,7 +479,7 @@
 
       <!-- BORDERS -->
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 mb-1">
           <h1 id="bordersTop" class="text-center bt-2-dark bb-2-dark mt-1">BORDERS</h1>
         </div>
       </div>
@@ -687,7 +687,7 @@
         </div>
       </div>
 
-      <div class="row mb-1">
+      <div class="row">
         <div id="col1" class="col-12">
           <div class="accordion bg-light">
             <div class="accordion-banner bg-red">
@@ -716,9 +716,33 @@
           </div>
         </div>
 
-        <div class="col-12">
+        <div class="col-12 mt-1">
           <div class="slider-body">
             <input type="range" min="2" max="12" value="12" class="slider-handle" id="slider1">
+          </div>
+        </div>
+      </div>
+
+      <!-- CARDS -->
+      <div class="row mb-1">
+        <div class="col-12">
+          <h1 id="cardsTop" class="text-center bt-2-dark bb-2-dark mt-1">CARDS</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div id="col4" class="col-12">
+          <div class="card bg-gray">
+            <img class="card-image" src="http://placehold.it/200x200" alt="Placeholder Image">
+            <div class="card-title text-center bb-1-dark">Card Title</div>
+            <div class="card-info"><p>Card Info, Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ullam dignissimos vel, odit incidunt voluptate, reprehenderit rerum optio doloremque laudantium voluptates vitae, nobis ipsum quaerat tempora similique blanditiis repellat dolore?</p></div>
+            <div class="btn bg-light">Card Button</div>
+          </div>
+        </div>
+
+        <div class="col-12 mt-1">
+          <div class="slider-body">
+            <input type="range" min="2" max="12" value="12" class="slider-handle" id="slider4">
           </div>
         </div>
       </div>
@@ -744,6 +768,10 @@
 
       $("#slider3").on("input", function () {
         $("#col3").attr("class", "col-" + $("#slider3").val());
+      });
+
+      $("#slider4").on("input", function () {
+        $("#col4").attr("class", "col-" + $("#slider4").val());
       });
 
     </script>
