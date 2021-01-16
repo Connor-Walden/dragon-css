@@ -28,4 +28,7 @@ This CSS framework started as a joke made during my web development bootcamp... 
 https://connor-walden.github.io/dragon-css
 
 ## Built With
-CSS - 100% (Well... i guess there is also the index.html for the showcase :/)
+- CSS
+- HTML
+- JavaScript
+- jQuery
