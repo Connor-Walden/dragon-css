@@ -21,6 +21,7 @@ This CSS framework started as a joke made during my web development bootcamp... 
 - Dropdowns
 - Lists
 - Forms
+- Accordions
 
 ## Showcase
 https://connor-walden.github.io/dragon-css
