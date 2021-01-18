@@ -5,7 +5,7 @@ $(document).ready(function() {
   for (var i = 0; i < acc.length; i++) {
     acc[i].addEventListener("click", function () {
       this.classList.toggle("active");
-      if (this.nextElementSibling.style.display === "block") this.nextElementSibling.style.display = "none"; else this.nextElementSibling.style.display = "block";
+      if (this.nextElementSibling.getAttribute("style") === "display: inline-block;") this.nextElementSibling.setAttribute("style", "display: none; overflow: hidden;"); else this.nextElementSibling.setAttribute("style", "display: inline-block;");
       $(this).find('.add-mini-btn').text() == '+' ? $(this).find('.add-mini-btn').text('-') : $(this).find('.add-mini-btn').text('+');
     });
   }

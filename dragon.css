@@ -40,6 +40,18 @@ hr {
   background: #ccc;
 }
 
+/* Unselectable text */
+.unselectable {
+  -webkit-user-select: none;
+  /* Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+/Edge */
+  user-select: none;
+  /* Standard */
+}
+
 /* CONTAINER */
 .container {
   max-width: var(--container-max-width);
@@ -75,14 +87,6 @@ hr {
   font-size: 24px;
   float: right;
   cursor: pointer;
-  -webkit-user-select: none;
-  /* Safari */
-  -moz-user-select: none;
-  /* Firefox */
-  -ms-user-select: none;
-  /* IE10+/Edge */
-  user-select: none;
-  /* Standard */
 }
 .add-mini-btn:active {
   cursor: progress;
@@ -155,6 +159,7 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
 .col-3:first-child {margin-left: 0px;}
 
 .col-4 {
+  padding: 0;
   width: calc((100% - 20px * 2) / 3);
   margin-left: 20px;
   float: left;
@@ -211,11 +216,10 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
 .col-11:first-child {margin-left: 0px;}
 
 .col-12 {
+  padding: 0;
   width: 100%;
-  margin-left: 20px;
   float: left;
 }
-.col-12:first-child {margin-left: 0px;}
 
 /* BUTTONS */
 .btn {
@@ -226,14 +230,6 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
   height: 50px;
   text-align: center;
   font-size: 16px;
-  -webkit-user-select: none;
-  /* Safari */
-  -moz-user-select: none;
-  /* Firefox */
-  -ms-user-select: none;
-  /* IE10+/Edge */
-  user-select: none;
-  /* Standard */
 }
 .btn:hover {filter: brightness(85%);cursor: pointer;}
 .btn:active {cursor: progress;}
@@ -250,15 +246,6 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
   margin: 0.5rem 1rem;
   color: white;
   padding: 0.8rem;
-
-  -webkit-user-select: none;
-  /* Safari */
-  -moz-user-select: none;
-  /* Firefox */
-  -ms-user-select: none;
-  /* IE10+/Edge */
-  user-select: none;
-  /* Standard */
 }
 
 /* STATEMENTS */
@@ -282,14 +269,6 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
   max-width: 50px;
   padding: 0.2em 10px;
   font-size: 1em;
-  -webkit-user-select: none;
-  /* Safari */
-  -moz-user-select: none;
-  /* Firefox */
-  -ms-user-select: none;
-  /* IE10+/Edge */
-  user-select: none;
-  /* Standard */
 }
 
 /* BACKGROUND COLOR */
@@ -358,20 +337,13 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
 /* LISTS */
 .list {
   border: 1px solid gray;
+  border-radius: 5px;
   width: 100%;
 }
 .list-item {
   border-top: 1px solid gray;
   padding: 10px 0 10px 10px;
   margin: 0;
-  -webkit-user-select: none;
-  /* Safari */
-  -moz-user-select: none;
-  /* Firefox */
-  -ms-user-select: none;
-  /* IE10+/Edge */
-  user-select: none;
-  /* Standard */
 }
 .list-item:first-child {
   border-top: none;
@@ -417,14 +389,6 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
   border: none;
   outline: none;
   transition: 0.4s;
-  -webkit-user-select: none;
-  /* Safari */
-  -moz-user-select: none;
-  /* Firefox */
-  -ms-user-select: none;
-  /* IE10+/Edge */
-  user-select: none;
-  /* Standard */
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -443,6 +407,7 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
 /* CARDS */
 .card {
   border-radius: 5px;
+  margin: 0;
   padding: 10px;
 }
 
