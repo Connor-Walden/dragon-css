@@ -420,6 +420,21 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
   font-size: 35px;
 }
 
+/* LINK CLASS */
+.link {
+  background: none;
+  color: #CAE4F1;
+  text-decoration: underline;
+}
+
+/* NAVBAR */
+.navbar {
+  width: 100%;
+  min-height: 50px;
+  max-height: 150px;
+  padding: 18px;
+}
+
 /*  BORDER CLASSES */
 
 /* Border Around */
