@@ -37,17 +37,17 @@
           customisable vanilla css framework, beautiful website, minimal css.
         </p>
       </div>
-
+      <!-- STYLE -->
       <div class="row">
         <div class="col-12 heel">
           <h1 class="text-center bt-2-dark bb-2-dark mt-1">STYLE</h1>
         </div>
       </div>
-
+      
       <div class="row">
         <div class="col-12 heel text-center">
           <p>p</p>
-          
+      
           <h1>H1</h1>
           <h2>H2</h2>
           <h3>H3</h3>
@@ -55,6 +55,62 @@
           <h5>H5</h5>
           <h6>H6</h6>
         </div>
+      </div>
+
+      <!-- COLOR -->
+      <div class="row mb-1">
+        <div class="col-12 heel">
+          <h1 class="text-center bt-2-dark bb-2-dark mt-1">COLOR</h1>
+        </div>
+      </div>
+
+      <!-- LIGHTER -->
+      <div class="row">
+        <div class="col-1"><p>Lighter: </p></div>
+        <div class="col-1 off-1 red lighter">r-l</div>
+        <div class="col-1 green lighter">g-l</div>
+        <div class="col-1 yellow lighter">y-l</div>
+        <div class="col-1 blue lighter">b-l</div>
+        <div class="col-1 orange lighter">o-l</div>
+        <div class="col-1 cyan lighter">c-l</div>
+        <div class="col-1 magenta lighter">m-l</div>
+        <div class="col-1 gray lighter">g-l</div>
+        <div class="col-1 light lighter">l-l</div>
+        <div class="col-1 dark lighter">d-l</div>
+      </div>
+      
+      <!-- NOMRAL -->
+      <div class="row">
+        <div class="col-1">
+          <p>Normal: </p>
+        </div>
+        <div class="col-1 off-1 red">r</div>
+        <div class="col-1 green">g</div>
+        <div class="col-1 yellow">y</div>
+        <div class="col-1 blue">b</div>
+        <div class="col-1 orange">o</div>
+        <div class="col-1 cyan">c</div>
+        <div class="col-1 magenta">m</div>
+        <div class="col-1 gray">g</div>
+        <div class="col-1 light">l</div>
+        <div class="col-1 dark">d</div>
+      </div>
+      
+      <!-- DARKER -->
+      <div class="row">
+        <div class="col-1">
+          <p>Darker: </p>
+        </div>
+        <div class="col-1 off-1 red darker">r-d</div>
+        <div class="col-1 green darker">g-d</div>
+        <div class="col-1 yellow darker">y-d</div>
+        <div class="col-1 blue darker">b-d</div>
+        <div class="col-1 orange darker">o-d</div>
+        <div class="col-1 cyan darker">c-d</div>
+        <div class="col-1 magenta darker">m-d</div>
+        <div class="col-1 gray darker">g-d</div>
+        <div class="col-1 light darker">l-d</div>
+        <div class="col-1 dark darker">d-d</div>
       </div>
     
       <!-- BUTTONS -->
@@ -102,18 +158,10 @@
         </div>
       </div>
 
-      <div class="row">
-        <div id="col6" class="col-12 col6 heel">
+      <div class="row bt-1-dark">
+        <div id="col6" class="col-12 heel">
           <div class="statement marker-gray shadow-out unselectable">
             Statement - Marker
-          </div>
-        </div>
-      </div>
-
-      <div class="row bt-1-dark">
-        <div class="col-12 col6 heel">
-          <div class="statement gray shadow-out unselectable">
-            Statement - Box
           </div>
         </div>
 
@@ -411,7 +459,7 @@
       });
 
       $("#slider6").on("input", function () {
-        $(".col6").attr("class", "col-" + $("#slider6").val() + " col6 heel");
+        $("#col6").attr("class", "col-" + $("#slider6").val() + " heel");
       });
 
       $("#slider7").on("input", function () {
