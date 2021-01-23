@@ -2,7 +2,7 @@
 Take flight with Dragon! A CSS framework built for champions.
 
 ## Description
-This CSS framework started as a joke made during my web development bootcamp... And it turned into what it is now! This framework was written in 100% vanilla CSS and is cross-browser compatible. This framework uses a grid system and all components try to stretch to fit the column they are in... In the future there will be a whole host of flex-based classes to organise your content within it's column.
+This CSS framework started as a joke made during my web development bootcamp... And it turned into what it is now! This framework was written in 100% vanilla CSS and is cross-browser compatible. This framework uses a grid system and all components try to stretch to fit the column they are in... There are many new features in the grid that allow offsetting columns by however many column widths you want and a dock class to make sure a column is stuck to the left of the row.
 
 ## Features
 - Powerful grid system
