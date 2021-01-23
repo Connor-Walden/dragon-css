@@ -12,6 +12,7 @@ This CSS framework started as a joke made during my web development bootcamp... 
 - Custom border classes
 - Custom font classes
 - Color any text or component in any of our classes ([COLOR] and text-[COLOR])
+- Easy to use utility classes such as rounded, unselectable, shadow-in and shadow-out subtly but strongly change your components.
 
 ## Components
 - Buttons
