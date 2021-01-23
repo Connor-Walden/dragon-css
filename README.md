@@ -44,8 +44,10 @@ This CSS framework started as a joke made during my web development bootcamp... 
   - class="[color]!"
   - class="text-[color]!"
 - Shade classes used to slight change your components to a darker or lighter tone
+  - class="lightest"
   - class="lighter"
   - class="darker"
+  - class="darkest"
 - Easy to use utility classes subtly but strongly change your components
   - class="rounded" 
   - class="unselectable" 

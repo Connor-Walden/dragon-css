@@ -118,16 +118,16 @@ p { filter: brightness(100%); }
 
 /* ------------------------ COLOR ------------------------ */
 /* Color classes */
-.red     { background-color: red;     color: white; filter: brightness(75%); }
-.green   { background-color: green;   color: white; filter: brightness(75%); }
-.yellow  { background-color: yellow;  color: black; filter: brightness(75%); }
-.blue    { background-color: blue;    color: white; filter: brightness(75%); }
-.orange  { background-color: orange;  color: black; filter: brightness(75%); }
-.cyan    { background-color: cyan;    color: black; filter: brightness(75%); }
-.magenta { background-color: magenta; color: white; filter: brightness(75%); }
-.gray    { background-color: gray;    color: white; filter: brightness(75%); }
-.light   { background-color: #c5c5c5; color: black; filter: brightness(75%); }
-.dark    { background-color: #515151; color: white; filter: brightness(75%); }
+.red     { background-color: red;     color: white; filter: brightness(80%); }
+.green   { background-color: green;   color: white; filter: brightness(80%); }
+.yellow  { background-color: yellow;  color: black; filter: brightness(80%); }
+.blue    { background-color: blue;    color: white; filter: brightness(80%); }
+.orange  { background-color: orange;  color: black; filter: brightness(80%); }
+.cyan    { background-color: cyan;    color: black; filter: brightness(80%); }
+.magenta { background-color: magenta; color: white; filter: brightness(80%); }
+.gray    { background-color: gray;    color: white; filter: brightness(80%); }
+.light   { background-color: #c5c5c5; color: black; filter: brightness(80%); }
+.dark    { background-color: #515151; color: white; filter: brightness(80%); }
 
 /* Text color classes */
 .text-red     { color: red;     }
@@ -142,8 +142,10 @@ p { filter: brightness(100%); }
 .text-dark    { color: #515151; }
 
 /* Shade classes */
-.darker  { filter: brightness(50%); }
-.lighter { filter: brightness(100%); }
+.darkest  { filter: brightness(60%); }
+.darker   { filter: brightness(70%); }
+.lighter  { filter: brightness(90%); }
+.lightest { filter: brightness(100%); }
 
 /* Marker classes */
 .marker-red     { border-left: 5px solid red;     }
