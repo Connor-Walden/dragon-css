@@ -98,7 +98,7 @@ p { filter: brightness(100%); }
   .col-10    { width: 82.6666666667%; margin-left: 4%; float: left; }
   .col-11    { width: 91.3333333333%; margin-left: 4%; float: left; }
   .col-12    { width: 100%;           float: left; }
-  .heel      { margin-left: 0; } 
+  .dock      { margin-left: 0; } 
 
   /* Offsets */
   .off-0  { margin-left: 0;              }
