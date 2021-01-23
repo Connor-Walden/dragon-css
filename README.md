@@ -11,7 +11,7 @@ This CSS framework started as a joke made during my web development bootcamp... 
 - Custom margin classes
 - Custom border classes
 - Custom font classes
-- Recolor: color any text or component in any of our classes (bg-[COLOR] and text-[COLOR])
+- Color any text or component in any of our classes ([COLOR] and text-[COLOR])
 
 ## Components
 - Buttons
@@ -23,6 +23,7 @@ This CSS framework started as a joke made during my web development bootcamp... 
 - Forms
 - Accordions
 - Cards
+- Navbar
 
 ## Showcase
 https://connor-walden.github.io/dragon-css
