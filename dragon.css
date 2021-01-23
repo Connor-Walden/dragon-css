@@ -313,7 +313,6 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   width: 100%;
@@ -334,14 +333,18 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
   filter: brightness(85%);
 }
 
+.dropdown-item {
+  border-top: 1px solid black;
+}
+
 /* LISTS */
 .list {
-  border: 1px solid gray;
+  border: 1px solid black;
   border-radius: 5px;
   width: 100%;
 }
 .list-item {
-  border-top: 1px solid gray;
+  border-top: 1px solid black;
   padding: 10px 0 10px 10px;
   margin: 0;
 }
@@ -424,16 +427,43 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
 .link {
   background: none;
   color: #CAE4F1;
+  padding: 0;
+  margin: 0;
   text-decoration: underline;
 }
+.link:hover { filter: brightness(85%); }
 
 /* NAVBAR */
 .navbar {
   width: 100%;
-  min-height: 50px;
-  max-height: 150px;
-  padding: 18px;
+  height: 3rem;
 }
+
+.navbar-title {
+  width: 49%;
+  padding: 0;
+  margin-top: 7px;
+  margin-left: 10px;
+  font-size: 36px;
+  float: left;
+}
+
+.nav-menu {
+  width: 49%;
+  height: 20px;
+  padding: 15px 0;
+  margin: 0;
+  float: left;
+}
+
+.nav-link {
+  background: none;
+  color: #CAE4F1;
+  padding: 0;
+  margin: 0 0.5rem;
+  text-decoration: underline;
+}
+.nav-link:hover {filter: brightness(85%);}
 
 /*  BORDER CLASSES */
 
@@ -598,6 +628,9 @@ NOTE: THE FIRST CHILD SELECTOR IS USED TO REMOVE THE GUTTER ON
 .bl-3-dark {border-left: 20px solid #515151;margin:0;}
 
 /* ------ PADDING CLASSES ------ */
+
+/* Padding zero */
+.p-0 {padding: 0;}
 
 /* Padding Around */
 .p-1 {padding: 1rem;}
