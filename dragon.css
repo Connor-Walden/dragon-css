@@ -5,6 +5,18 @@
 /* ------------------------ GLOBAL VARIABLES ------------------------ */
 :root {
   --container-max-width: 1140px; 
+  --col-1-width: calc((100% - 20px * 11) / 12);
+  --col-2-width: calc((100% - 20px * 5) / 6);
+  --col-3-width: calc((100% - 20px * 3) / 4);
+  --col-4-width: calc((100% - 20px * 2) / 3);
+  --col-5-width: calc((100% - 20px) / 2.4);
+  --col-6-width: calc((100% - 20px) / 2);
+  --col-7-width: calc((100% - 20px) / 1.7);
+  --col-8-width: calc((100% - 20px) / 1.5);
+  --col-9-width: calc((100% - 20px) / 1.33);
+  --col-10-width: calc((100% - 20px) / 1.2);
+  --col-11-width: calc((100% - 20px) / 1.1);
+  --col-12-width: 100%;
 }
 
 
@@ -69,9 +81,9 @@ p { filter: brightness(100%); }
 
 /* Shadow out */
 .shadow-out {
-  -moz-box-shadow:    3px 3px 8px 6px #ccc;
-  -webkit-box-shadow: 3px 3px 8px 6px #ccc;
-  box-shadow:         3px 3px 8px 6px #ccc;
+  -moz-box-shadow:    3px 3px 8px 6px #000000;
+  -webkit-box-shadow: 3px 3px 8px 6px #000000;
+  box-shadow:         3px 3px 8px 6px #000000;
 }
 
 
@@ -80,39 +92,34 @@ p { filter: brightness(100%); }
 .row { width: 100%; float: left; }
 .row:after { display: table; clear: both; content: ''; }
 
-@media (min-width: 400px) {
-  .container { width: 85%; padding: 0; } 
-}
-
 @media (min-width: 550px) {
   .container { width: 80%; }
-  .col-1     { width: 4.66666666667%; margin-left: 4%; float: left; }
-  .col-2     { width: 13.3333333333%; margin-left: 4%; float: left; }
-  .col-3     { width: 22%;            margin-left: 4%; float: left; }  
-  .col-4     { width: 30.6666666667%; margin-left: 4%; float: left; }
-  .col-5     { width: 39.3333333333%; margin-left: 4%; float: left; }
-  .col-6     { width: 48%;            margin-left: 4%; float: left; }
-  .col-7     { width: 56.6666666667%; margin-left: 4%; float: left; }
-  .col-8     { width: 65.3333333333%; margin-left: 4%; float: left; }
-  .col-9     { width: 74.0%;          margin-left: 4%; float: left; }
-  .col-10    { width: 82.6666666667%; margin-left: 4%; float: left; }
-  .col-11    { width: 91.3333333333%; margin-left: 4%; float: left; }
-  .col-12    { width: 100%;           float: left; }
+  .col-1     { width: var(--col-1-width);  margin-left: 20px; float: left; }
+  .col-2     { width: var(--col-2-width);  margin-left: 20px; float: left; }
+  .col-3     { width: var(--col-3-width);  margin-left: 20px; float: left; }  
+  .col-4     { width: var(--col-4-width);  margin-left: 20px; float: left; }
+  .col-5     { width: var(--col-5-width);  margin-left: 20px; float: left; }
+  .col-6     { width: var(--col-6-width);  margin-left: 20px; float: left; }
+  .col-7     { width: var(--col-7-width);  margin-left: 20px; float: left; }
+  .col-8     { width: var(--col-8-width);  margin-left: 20px; float: left; }
+  .col-9     { width: var(--col-9-width);  margin-left: 20px; float: left; }
+  .col-10    { width: var(--col-10-width); margin-left: 20px; float: left; }
+  .col-11    { width: var(--col-11-width); margin-left: 20px; float: left; }
+  .col-12    { width: var(--col-12-width);                    float: left; }
   .dock      { margin-left: 0; } 
 
   /* Offsets */
-  .off-0  { margin-left: 0;              }
-  .off-1  { margin-left: 8.66666666667%; }
-  .off-2  { margin-left: 17.3333333333%; }
-  .off-3  { margin-left: 26%;            }
-  .off-4  { margin-left: 34.6666666667%; }
-  .off-5  { margin-left: 43.3333333333%; }
-  .off-6  { margin-left: 52%;            }
-  .off-7  { margin-left: 60.6666666667%; }
-  .off-8  { margin-left: 69.3333333333%; }
-  .off-9  { margin-left: 78.0%;          }
-  .off-10 { margin-left: 86.6666666667%; }
-  .off-11 { margin-left: 95.3333333333%; }
+  .off-1  { margin-left: var(--col-1-width);  } 
+  .off-2  { margin-left: var(--col-2-width);  }
+  .off-3  { margin-left: var(--col-3-width);  }
+  .off-4  { margin-left: var(--col-4-width);  }
+  .off-5  { margin-left: var(--col-5-width);  }
+  .off-6  { margin-left: var(--col-6-width);  }
+  .off-7  { margin-left: var(--col-7-width);  }
+  .off-8  { margin-left: var(--col-8-width);  }
+  .off-9  { margin-left: var(--col-9-width);  }
+  .off-10 { margin-left: var(--col-10-width); }
+  .off-11 { margin-left: var(--col-11-width); }
 }
 
 
